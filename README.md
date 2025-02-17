@@ -15,7 +15,7 @@ Random Augmentation-based Contrastive Learning (RACL) aims to improve the model'
 Linear Evaluation was employed as a fine-tuning strategy, wherein only the final linear classification layer of the pre-trained model is updated, while keeping the rest of the network frozen. This method is used to assess whether the features learned by the pre-trained model are linearly separable within the feature space.
 
 ### part4: Multi-task Class-balanced Active Learning (MTCAL)
-In this part, a Multi-task Class-balanced Active Learning (MTCAL) framework is implemented. Leveraging the RACL-derived feature extractor, MTCAL iteratively identified and annotated the most informative samples from the target domain to achieve generalization across domains
+In this part, a Multi-task Class-balanced Active Learning (MTCAL) framework is implemented. Leveraging the RACL-derived feature extractor, MTCAL iteratively identified and annotated the most informative samples from the target domain to achieve generalization across domains.
 
 ## Dependencies
 ---
