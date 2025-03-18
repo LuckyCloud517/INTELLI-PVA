@@ -24,7 +24,7 @@ conda create -n tf python=3.7
 
 pip install tensorflow-gpu==2.5.0
 pip install scikit-learn==1.0.2
-pip install scikit-learn==1.18.0
+pip install numpy==1.18.0
 pip install scipy==1.7.3
 ```
 
